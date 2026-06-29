@@ -1,6 +1,10 @@
 # A/B Test Significance Analyser
 
-A lightweight Python tool for running and planning A/B tests. Covers two-proportion z-test significance testing, confidence intervals, and minimum sample size calculation.
+This project is a lightweight Python tool for running and planning A/B tests. It takes real numbers (how many people saw each version, how many clicked or converted), runs the statistical test, and tells you clearly whether the result is meaningful or whether you need more data.
+
+There are two parts: one for analysing a test that's already been run, and one for planning a future test (figuring out how many users you'd need before starting). Covers two-proportion z-test significance testing, confidence intervals, and minimum sample size calculation.
+
+I validated it against a publicly available dataset from a real mobile game experiment with 90,000 users — the results matched the published analysis, which confirmed the tool works correctly.
 
 Built as a working proof of understanding A/B testing mechanics — scoped to be functionally complete rather than architecturally impressive. The goal was to build until I could confidently set up, run, and interpret a real experiment.
 
