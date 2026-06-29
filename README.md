@@ -56,17 +56,6 @@ This runs a sanity check against the Cookie Cats mobile game dataset (gate_30 vs
 
 ---
 
-## File structure
-
-```
-├── analysis.py       # Core stats logic — z-test and sample size functions
-├── app.py            # Streamlit UI
-├── requirements.txt  # Dependencies
-└── README.md
-```
-
----
-
 ## Stack
 
 Python · SciPy · statsmodels · Streamlit · Matplotlib
